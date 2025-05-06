@@ -1,0 +1,118 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Development Rules and Best Practices
+
+## 1. Code Organization
+- Keep components small and focused on a single responsibility
+- Follow the feature-first folder structure
+- Use meaningful and consistent naming conventions
+- Group related files together (components, hooks, utils, etc.)
+
+## 2. TypeScript Best Practices
+- Always use TypeScript for new files
+- Define proper interfaces and types for all props and state
+- Avoid using `any` type
+- Use strict type checking
+- Document complex types with JSDoc comments
+
+## 3. React Development
+- Use functional components with hooks
+- Implement proper error boundaries
+- Follow React's component lifecycle best practices
+- Use React.memo() for performance optimization when necessary
+- Implement proper prop validation
+- Use proper state management (Context API, Redux, etc.)
+
+## 4. State Management
+- Keep state as close to where it's needed as possible
+- Use Context API for global state that doesn't change frequently
+- Implement proper state initialization
+- Handle loading and error states appropriately
+- Use proper state update patterns
+
+## 5. API Integration
+- Implement proper error handling for API calls
+- Use proper loading states
+- Implement retry mechanisms for failed requests
+- Cache API responses when appropriate
+- Use proper authentication headers
+
+## 6. Security
+- Never commit sensitive information to version control
+- Use environment variables for configuration
+- Implement proper input validation
+- Use HTTPS for all API calls
+- Implement proper authentication and authorization
+
+## 7. Testing
+- Write unit tests for critical functionality
+- Implement integration tests for key user flows
+- Use proper test naming conventions
+- Maintain good test coverage
+- Test edge cases and error scenarios
+
+## 8. Performance
+- Implement proper code splitting
+- Use lazy loading for components
+- Optimize images and assets
+- Implement proper caching strategies
+- Monitor and optimize bundle size
+
+## 9. Git Workflow
+- Use meaningful commit messages
+- Follow conventional commits
+- Create feature branches for new features
+- Implement proper pull request reviews
+- Keep the main branch stable
+
+## 10. Documentation
+- Document complex logic
+- Keep README up to date
+- Document API endpoints
+- Document component props and usage
+- Keep documentation in sync with code changes
+
+## 11. Electron Specific
+- Keep main and renderer processes separate
+- Implement proper IPC communication
+- Handle window management properly
+- Implement proper error handling for native features
+- Follow Electron security best practices
+
+## 12. Code Quality
+- Follow ESLint rules
+- Use Prettier for code formatting
+- Implement proper error handling
+- Write clean, maintainable code
+- Remove unused code and dependencies
+
+## 13. Accessibility
+- Use semantic HTML
+- Implement proper ARIA attributes
+- Ensure keyboard navigation works
+- Test with screen readers
+- Follow WCAG guidelines
+
+## 14. UI/UX
+- Follow design system guidelines
+- Implement responsive design
+- Use proper loading states
+- Provide proper feedback for user actions
+- Implement proper error messages
+
+## 15. Deployment
+- Use proper environment variables
+- Implement proper build configurations
+- Use proper deployment strategies
+- Monitor application performance
+- Implement proper logging
+
+## 16. Maintenance
+- Keep dependencies up to date
+- Remove deprecated code
+- Refactor when necessary
+- Monitor application performance
+- Keep documentation up to date
